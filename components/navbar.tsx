@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Menu, Phone, X } from "lucide-react";
+import { ChevronRight, Phone, X } from "lucide-react";
 import { LogoMark, WhatsAppIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import { navLinks, site, telHref, whatsappHref } from "@/lib/site";
@@ -50,34 +50,44 @@ export function Navbar() {
 
         <details className="nav-menu relative z-[80] ml-auto shrink-0 lg:hidden">
           <summary aria-label="Menü" className="nav-summary">
-            <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-slate-100 text-navy-900">
-              <Menu className="nav-icon-closed h-5 w-5" />
-              <X className="nav-icon-open h-5 w-5" />
+            <span className="nav-burger">
+              <span className="nav-burger-icon nav-icon-closed" aria-hidden="true">
+                <span />
+                <span />
+                <span />
+              </span>
+              <X className="nav-icon-open h-5 w-5 text-navy-900" />
             </span>
           </summary>
-          <div className="fixed inset-0 top-[4.25rem] z-[75] overflow-y-auto bg-white">
-            <nav className="flex flex-col gap-1 px-4 py-4">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className="rounded-xl px-3 py-4 text-base font-medium text-navy-900"
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <a href={telHref} className="px-3 py-2 text-sm text-slate-500">
-                {site.phoneDisplay}
-              </a>
-              <div className="mt-2 grid grid-cols-2 gap-2">
-                <Button href={telHref} variant="navy" className="h-12 w-full">
-                  <Phone className="h-4 w-4" />
-                  Ara
-                </Button>
-                <Button href={whatsappHref} variant="whatsapp" className="h-12 w-full">
-                  <WhatsAppIcon className="h-4 w-4" />
-                  WhatsApp
-                </Button>
+          <div className="nav-drawer">
+            <nav className="nav-drawer-sheet">
+              <p className="px-1 text-[11px] font-semibold tracking-[0.16em] text-slate-400 uppercase">
+                Menü
+              </p>
+              <ul className="mt-4 space-y-2">
+                {navLinks.map((link) => (
+                  <li key={link.href}>
+                    <Link href={link.href} className="nav-drawer-link">
+                      <span>{link.label}</span>
+                      <ChevronRight className="h-4 w-4 text-slate-400" />
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+              <div className="mt-8 border-t border-slate-200 pt-5">
+                <a href={telHref} className="block text-center text-sm font-medium text-navy-900">
+                  {site.phoneDisplay}
+                </a>
+                <div className="mt-3 grid grid-cols-2 gap-2">
+                  <Button href={telHref} variant="navy" className="h-12 w-full">
+                    <Phone className="h-4 w-4" />
+                    Ara
+                  </Button>
+                  <Button href={whatsappHref} variant="whatsapp" className="h-12 w-full">
+                    <WhatsAppIcon className="h-4 w-4" />
+                    WhatsApp
+                  </Button>
+                </div>
               </div>
             </nav>
           </div>

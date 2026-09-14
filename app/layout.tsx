@@ -114,7 +114,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <script
           dangerouslySetInnerHTML={{
             __html:
-              "document.addEventListener('click',function(e){var t=e.target;if(!t.closest)return;var m=t.closest('.nav-menu');var a=t.closest('.nav-menu a');if(a&&m)m.removeAttribute('open');});",
+              "document.addEventListener('click',function(e){var t=e.target;if(!t.closest)return;var m=t.closest('.nav-menu');var a=t.closest('.nav-menu a');if(a&&m)m.removeAttribute('open');});(function(){function bind(){document.querySelectorAll('.mobile-loop').forEach(function(vp){if(vp.dataset.bound)return;vp.dataset.bound='1';var track=vp.querySelector('.mobile-loop-track');if(!track)return;var x0=0;vp.addEventListener('touchstart',function(e){x0=e.touches[0].clientX;var a=track.getAnimations&&track.getAnimations()[0];if(a)a.pause();else track.style.animationPlayState='paused';},{passive:true});vp.addEventListener('touchend',function(e){var dx=e.changedTouches[0].clientX-x0;var a=track.getAnimations&&track.getAnimations()[0];if(a&&Math.abs(dx)>40){var t=a.currentTime||0;t=dx<0?Math.min(15990,t+4000):Math.max(0,t-4000);a.currentTime=t;}if(a)a.play();else track.style.animationPlayState='running';},{passive:true});});}if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',bind);else bind();})();",
           }}
         />
         <div id="top" className="flex min-h-dvh flex-col overflow-x-hidden">
