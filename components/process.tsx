@@ -54,7 +54,7 @@ export function Process() {
         <FadeIn>
           <p className="text-sm font-medium text-blue-600">Test süreci</p>
           <h2 className="mt-2 text-2xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
-            Test Süreci Nasıl İşler? (3 Kolay Adımda Raporlama)
+            Defne Psikoteknik Test Süreci ve Raporlama
           </h2>
         </FadeIn>
 

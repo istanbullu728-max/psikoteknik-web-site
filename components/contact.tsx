@@ -20,7 +20,7 @@ export function Contact() {
         <FadeIn>
           <p className="text-sm font-medium text-blue-600">İletişim</p>
           <h2 className="mt-2 text-3xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
-            Konum ve Hızlı Randevu Hattı
+            Defne Psikoteknik Merkezi Konum ve İletişim
           </h2>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-slate-600">
             Randevu hattımız gün içinde açıktır. Konum için tek dokunuşla yol

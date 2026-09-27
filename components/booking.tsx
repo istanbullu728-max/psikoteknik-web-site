@@ -26,9 +26,9 @@ export function Booking() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:grid lg:grid-cols-[0.9fr_1.1fr] lg:items-start lg:gap-10">
         <div className="mb-8 lg:mb-0">
           <p className="text-sm font-medium text-blue-600">Randevu</p>
-          <p className="mt-2 text-3xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
-            Hemen randevu alın
-          </p>
+          <h2 className="mt-2 text-3xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
+            Hatay Samandağ ve Antakya İçin Hemen Randevu Alın
+          </h2>
           <p className="mt-3 max-w-sm text-sm leading-relaxed text-slate-600">
             Tarih ve saat seçin, WhatsApp’tan gönderin.
           </p>

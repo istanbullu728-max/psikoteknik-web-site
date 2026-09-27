@@ -15,9 +15,9 @@ export function Faq() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <FadeIn>
           <p className="text-sm font-medium text-blue-600">Evraklar</p>
-          <h3 className="mt-2 text-2xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
+          <h2 className="mt-2 text-2xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
             Gerekli Evraklar ve Test Öncesi Bilgiler
-          </h3>
+          </h2>
           <p className="mt-4 text-base leading-relaxed text-slate-600">
             Eksik evrak yüzünden gün kaybetmeyin. Aşağıdaki liste yeterlidir.
           </p>

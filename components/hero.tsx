@@ -58,7 +58,7 @@ export function Hero() {
         <div className="mx-auto grid max-w-6xl grid-cols-2 sm:grid-cols-4">
           {[
             { value: "1 saat", label: "Toplam süreç" },
-            { value: "15 dk", label: "Sonuç" },
+            { value: "Hızlı", label: "Sonuç" },
             { value: "5 yıl", label: "Geçerlilik" },
             { value: "Aynı gün", label: "Teslim" },
           ].map((stat) => (

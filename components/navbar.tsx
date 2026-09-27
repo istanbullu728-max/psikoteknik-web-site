@@ -19,7 +19,7 @@ export function Navbar() {
               <span className="hidden xl:inline">{site.name}</span>
             </span>
             <span className="block truncate text-[11px] font-medium text-slate-500">
-              Psikoteknik · Defne / Hatay
+              Hatay Defne Psikoteknik Merkezi
             </span>
           </span>
         </Link>

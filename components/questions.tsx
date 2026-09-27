@@ -6,7 +6,7 @@ export function Questions() {
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <p className="text-sm font-medium text-blue-600">Sıkça sorulan sorular</p>
         <h2 className="mt-2 text-2xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
-          Sıkça Sorulan Sorular (Defne - Samandağ - Antakya Psikoteknik)
+          Hatay Defne Psikoteknik Sıkça Sorulan Sorular
         </h2>
         <div className="mt-8 space-y-3">
           {faqs.map((item) => (

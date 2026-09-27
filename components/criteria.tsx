@@ -20,7 +20,7 @@ export function Criteria() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <p className="text-sm font-medium text-blue-600">Kimler almalı</p>
         <h2 className="mt-2 max-w-3xl text-2xl font-semibold tracking-tight text-navy-900 sm:text-4xl">
-          Yasal olarak kimler almak zorunda?
+          Hatay Psikoteknik Belgesi Kimler İçin Zorunlu?
         </h2>
 
         <div className="mt-8 grid gap-2.5 sm:grid-cols-2 lg:grid-cols-3">

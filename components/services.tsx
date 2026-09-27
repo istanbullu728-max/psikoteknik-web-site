@@ -31,11 +31,11 @@ export function Services() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="text-center">
           <h2 className="text-3xl font-semibold tracking-tight text-blue-600 sm:text-4xl">
-            Hizmetlerimiz
+            Hatay Defne Psikoteknik Hizmetlerimiz
           </h2>
           <span className="mx-auto mt-3 block h-1 w-12 rounded-full bg-[#f57c00]" />
           <p className="mx-auto mt-4 max-w-xl text-sm leading-relaxed text-slate-500 sm:text-base">
-            Defne, Antakya ve Samandağ için e-Devlet onaylı psikoteknik raporu.
+            Defne, Antakya, Samandağ ve Harbiye için psikoteknik raporu.
           </p>
         </div>
 
