@@ -43,24 +43,28 @@ export function whatsappBookingHref(dateLabel: string, time?: string) {
 
 export const faqs = [
   {
-    q: "Defne’de psikoteknik raporu ne kadar sürer?",
-    a: "Test ve değerlendirme yaklaşık 1 saat sürer. Sonuç aynı gün e-Devlet’e işlenir.",
+    q: "Hatay Defne'de psikoteknik belgesi nereden ve nasıl alınır?",
+    a: "Defne merkezimizde, Sağlık Bakanlığı onaylı test cihazlarımız ve uzman psikolog eşliğinde işlemlerinizi gerçekleştiriyoruz. Hatay Defne psikoteknik belgesi gereksinimleriniz için İl Sağlık Müdürlüğü onaylı resmi raporunuzu aynı gün içinde teslim alarak yasal zorunluluğunuzu hızlıca tamamlayabilirsiniz.",
   },
   {
-    q: "Antakya ve Samandağ’dan gelebilir miyim?",
-    a: "Evet. Merkezimiz Defne’dedir; Antakya ve Samandağ’dan gelen sürücülere aynı gün hizmet veriyoruz.",
+    q: "Antakya, Harbiye ve Samandağ'dan merkeze ulaşım nasıl sağlanır?",
+    a: "Merkezimiz Hatay'ın Defne ilçesinde son derece merkezi bir konumdadır. Antakya, Hatay Harbiye psikoteknik merkezi bölgesi ve Hatay Samandağ psikoteknik merkezi hattından gelen sürücülerimiz kendi araçlarıyla veya toplu taşımayla kısa sürede gelebilir, test işlemlerini aynı gün içinde bitirebilirler.",
   },
   {
-    q: "Rapor e-Devlet’e işlenir mi?",
-    a: "Evet. İl Sağlık onaylı resmi rapor aynı gün e-Devlet’e işlenir ve teslim edilir.",
+    q: "Psikoteknik testi ne kadar sürüyor ve raporu ne zaman alabilirim?",
+    a: "Bilgisayar destekli simülasyon testleri ve uzman psikolog görüşmesi toplamda yaklaşık 1 saat sürmektedir. Testi başarıyla tamamlayan sürücüler, resmi raporlarını aynı gün içerisinde bekletilmeden teslim alabilirler.",
   },
   {
-    q: "Yanımda hangi evraklar olmalı?",
-    a: "T.C. kimlik, ehliyet ve varsa SRC belgesi (asıl + fotokopi) yeterlidir. Fotokopiyi merkezde de çekebilirsiniz.",
+    q: "Alkol, hız veya ceza puanı nedeniyle ehliyet iadesi için bu test zorunlu mu?",
+    a: "Evet. Alkol, hız ihlali veya ceza puanı gibi nedenlerle ehliyetine el konulan ve ehliyet iadesi almak isteyen sürücülerin yasal olarak bu testi vermesi zorunludur. Hatay Defne psikoteknik merkezi olarak bu süreç resmi mevzuata tam uygunlukla yürütülür.",
   },
   {
-    q: "SRC ve ticari ehliyet için psikoteknik zorunlu mu?",
-    a: "Evet. SRC, taksi, servis ve ticari araç sürücüleri ile ehliyet iadesi işlemlerinde psikoteknik belgesi zorunludur.",
+    q: "SRC belgesi ve ticari araç sürücüleri için psikoteknik şart mı?",
+    a: "Evet. Taksiciler, dolmuş ve minibüs şoförleri ile otobüs, tır ve kamyon gibi ticari araç kullanan tüm sürücülerin SRC belgesinin yanı sıra geçerli bir Hatay Samandağ psikoteknik belgesi veya Hatay Harbiye psikoteknik belgesi standartlarında resmi rapora sahip olması yasal bir zorunluluktur.",
+  },
+  {
+    q: "Randevuya gelirken yanımda hangi belgeler olmalı?",
+    a: "Randevu saatinizde yanınızda T.C. kimlik kartınız, ehliyetiniz ve varsa SRC belgeniz (asıl ve fotokopi) bulunması yeterlidir. Belge fotokopisi veya çıktı ihtiyaçlarınız merkezimizde de hızlıca karşılanabilmektedir.",
   },
 ] as const;
 
