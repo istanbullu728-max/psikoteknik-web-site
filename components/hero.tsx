@@ -6,7 +6,7 @@ import { mapsHref } from "@/lib/site";
 const badges = [
   { icon: ShieldCheck, label: "T.C. Sağlık Bakanlığı Onaylı" },
   { icon: MonitorPlay, label: "Simülatörlü Test" },
-  { icon: BadgeCheck, label: "15 Dakikada Sonuç" },
+  { icon: BadgeCheck, label: "Hızlı Sonuç" },
 ];
 
 export function Hero() {
@@ -24,7 +24,7 @@ export function Hero() {
           <RotatingText />
         </p>
         <h2 className="mx-auto mt-4 max-w-2xl text-[15px] font-medium leading-snug text-slate-600 sm:text-xl">
-          Defne, Antakya ve Samandağ İçin e-Devlet Onaylı Psikoteknik Raporu
+          Defne, Antakya ve Samandağ İçin Psikoteknik Raporu
         </h2>
 
         <div className="mt-7 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
