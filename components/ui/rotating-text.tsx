@@ -1,9 +1,9 @@
 const phrases = [
-  "Psikoteknik Raporu",
-  "SRC Belgesi",
-  "Ehliyet İadesi",
-  "100 Ceza Puanı",
-  "Aday Sürücü İptali",
+  "İzinsiz Çakar Kullanımı",
+  "Drift Atma",
+  "3 Defa Kırmızı Işıkta Geçme",
+  "Ticari Amaçla Sürücülük Yapanlar",
+  "Üçüncü Defa Alkollü Yakalanma",
 ];
 
 export function RotatingText() {
