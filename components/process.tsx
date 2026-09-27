@@ -41,8 +41,8 @@ const steps = [
     summary: "Psikolog değerlendirmesi, aynı gün rapor.",
     details: [
       "Psikolog görüşmesi ve sonuç yorumu",
-      "İl Sağlık onaylı resmi rapor",
-      "e-Devlet’e işlenme ve teslim",
+      "Psikoteknik belgesi teslimi",
+      "Anında teslim",
     ],
   },
 ];
