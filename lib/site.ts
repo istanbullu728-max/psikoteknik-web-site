@@ -3,7 +3,7 @@ export const site = {
   name: "İstanbullu Psikoteknik",
   shortName: "İstanbullu",
   legalName: "İstanbullu Psikoteknik Değerlendirme Merkezi",
-  url: "https://hataydefnepsikoteknik.com",
+  url: "https://www.hataydefnepsikoteknik.com",
   tagline: "1 Saatte İl Sağlık Onaylı Psikoteknik Raporu",
   seoTitle: "Defne Psikoteknik Merkezi | Antakya & Samandağ Hızlı Randevu",
   description:

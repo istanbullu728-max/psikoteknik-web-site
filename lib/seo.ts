@@ -1,4 +1,4 @@
-const SITE_ORIGIN = "https://hataydefnepsikoteknik.com";
+const SITE_ORIGIN = "https://www.hataydefnepsikoteknik.com";
 
 const EXCLUDED_PATH_PREFIXES = [
   "/api",
