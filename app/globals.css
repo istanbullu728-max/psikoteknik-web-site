@@ -117,7 +117,7 @@ h3 {
 .phrase-track {
   display: flex;
   flex-direction: column;
-  animation: phrase-scroll 12.5s ease-in-out infinite;
+  animation: phrase-scroll 15s ease-in-out infinite;
 }
 
 .phrase-track > span {
@@ -131,24 +131,28 @@ h3 {
 
 @keyframes phrase-scroll {
   0%,
-  14% {
+  12% {
     transform: translate3d(0, 0, 0);
   }
-  20%,
-  34% {
+  16.66%,
+  28.66% {
     transform: translate3d(0, -1.45em, 0);
   }
-  40%,
-  54% {
+  33.33%,
+  45.33% {
     transform: translate3d(0, -2.9em, 0);
   }
-  60%,
-  74% {
+  50%,
+  62% {
     transform: translate3d(0, -4.35em, 0);
   }
-  80%,
-  94% {
+  66.66%,
+  78.66% {
     transform: translate3d(0, -5.8em, 0);
+  }
+  83.33%,
+  95.33% {
+    transform: translate3d(0, -7.25em, 0);
   }
   100% {
     transform: translate3d(0, 0, 0);

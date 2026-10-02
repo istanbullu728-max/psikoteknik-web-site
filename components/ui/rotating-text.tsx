@@ -4,6 +4,7 @@ const phrases = [
   "3 Defa Kırmızı Işıkta Geçme",
   "Ticari Amaçla Sürücülük Yapanlar",
   "Üçüncü Defa Alkollü Yakalanma",
+  "Motokuryeler",
 ];
 
 export function RotatingText() {

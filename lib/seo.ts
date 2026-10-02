@@ -1,4 +1,4 @@
-import { site } from "@/lib/site";
+const SITE_ORIGIN = "https://hataydefnepsikoteknik.com";
 
 const EXCLUDED_PATH_PREFIXES = [
   "/api",
@@ -22,13 +22,7 @@ export const indexFollow = {
 } as const;
 
 export function getSiteUrl() {
-  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim() || site.url;
-  const withProtocol = /^https?:\/\//i.test(raw) ? raw : `https://${raw}`;
-  const url = new URL(withProtocol);
-  url.protocol = "https:";
-  url.hash = "";
-  url.search = "";
-  return url.origin;
+  return SITE_ORIGIN;
 }
 
 export function absoluteUrl(path: string) {
