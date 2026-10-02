@@ -99,7 +99,7 @@ function HeroReportCard() {
         {[
           ["Süre", "58 dk"],
           ["Geçerlilik", "5 yıl"],
-          ["Kanal", "e-Devlet"],
+          ["Onay", "Resmi"],
           ["Teslim", "Aynı gün"],
         ].map(([label, value]) => (
           <div
