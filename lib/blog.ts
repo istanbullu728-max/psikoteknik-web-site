@@ -16,60 +16,6 @@ export type BlogPost = {
 
 export const posts: BlogPost[] = [
   {
-    slug: "hatay-defne-psikoteknik-raporu",
-    title: "Hatay Defne Psikoteknik Raporu: Aynı Gün Nasıl Alınır?",
-    excerpt:
-      "Defne / Hatay’da psikoteknik raporu nereden alınır, hangi evraklar gerekir ve rapor e-Devlet’e ne zaman işlenir?",
-    date: "2026-09-01",
-    dateLabel: "1 Eylül 2026",
-    readTime: "4 dk",
-    keywords: [
-      "hatay psikoteknik",
-      "defne psikoteknik",
-      "istanbullu psikoteknik",
-    ],
-    content: [
-      {
-        type: "p",
-        text: "Hatay’da SRC belgesi, ticari ehliyet veya ehliyet iadesi için psikoteknik raporu arıyorsanız adres Defne, Harbiye’deki İstanbullu Psikoteknik’tir. Randevu ile geldiğinizde test ve psikolog değerlendirmesi yaklaşık 1 saatte tamamlanır; rapor aynı gün teslim edilir ve e-Devlet’e işlenir.",
-      },
-      {
-        type: "h2",
-        text: "Defne’de psikoteknik merkezi nerede?",
-      },
-      {
-        type: "p",
-        text: "İstanbullu Psikoteknik, Harbiye Mh. Harbiye Blv. No:341/1 Defne / Hatay adresinde hizmet verir. Konum için Google Haritalar’dan “yol tarifi” alabilir, randevu için 0544 245 47 83 numarayı arayabilir veya WhatsApp’tan yazabilirsiniz.",
-      },
-      {
-        type: "h2",
-        text: "Kimler Hatay’da psikoteknik belgesi almak zorunda?",
-      },
-      {
-        type: "ul",
-        items: [
-          "SRC belgesi sahipleri (yük ve yolcu taşımacılığı)",
-          "Taksi, dolmuş, servis ve ticari araç sürücüleri",
-          "100 ceza puanını dolduran sürücüler",
-          "Aday sürücülüğü iptal edilenler",
-          "Alkollü olarak üçüncü kez yakalanan sürücüler",
-        ],
-      },
-      {
-        type: "h2",
-        text: "Yanınızda ne getirin?",
-      },
-      {
-        type: "p",
-        text: "T.C. kimlik kartı ve ehliyetin aslı ile fotokopileri yeterlidir. SRC belgeniz varsa onu da getirin. Test SPS simülatör sistemleriyle yapılır; dikkat, reaksiyon süresi, koordinasyon, muhakeme ve karar verme becerileri ölçülür. Rapor 5 yıl geçerlidir.",
-      },
-      {
-        type: "p",
-        text: "Aynı gün teslim ve güncel ücret için WhatsApp’tan yazmanız yeterlidir. Hatay ve Defne’den gelen sürücülere randevu önceliği veriyoruz.",
-      },
-    ],
-  },
-  {
     slug: "100-ceza-puani-psikoteknik-belgesi",
     title: "100 Ceza Puanı Dolan Sürücü Psikoteknik Belgesi Almak Zorunda mı?",
     excerpt:

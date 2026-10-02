@@ -15,8 +15,7 @@ export function Navbar() {
           <LogoMark priority />
           <span className="min-w-0 leading-tight">
             <span className="block truncate text-[15px] font-semibold tracking-tight text-navy-900">
-              <span className="xl:hidden">{site.shortName}</span>
-              <span className="hidden xl:inline">{site.name}</span>
+              {site.name}
             </span>
             <span className="block truncate text-[11px] font-medium text-slate-500">
               Hatay Defne Psikoteknik Merkezi

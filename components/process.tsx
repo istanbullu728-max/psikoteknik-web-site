@@ -37,7 +37,7 @@ const steps = [
   {
     n: "03",
     icon: Brain,
-    title: "e-Devlet Onayı",
+    title: "Sonuçlandırma ve Raporlama",
     summary: "Psikolog değerlendirmesi, aynı gün rapor.",
     details: [
       "Psikolog görüşmesi ve sonuç yorumu",
