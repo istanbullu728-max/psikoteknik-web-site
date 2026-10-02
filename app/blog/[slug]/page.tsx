@@ -16,11 +16,13 @@ export function generateStaticParams() {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   const post = getPost(slug);
-  if (!post) return { title: "Yazı bulunamadı" };
+  if (!post) return { title: "Yazı bulunamadı", robots: { index: false, follow: false } };
   return {
     title: post.title,
     description: post.excerpt,
     keywords: post.keywords,
+    alternates: { canonical: `/blog/${post.slug}` },
+    robots: { index: true, follow: true },
   };
 }
 

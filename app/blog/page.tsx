@@ -7,6 +7,8 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Blog | Hatay Defne Psikoteknik Rehberi",
   description: `Hatay ve Defne’de psikoteknik raporu, 100 ceza puanı, aday sürücülük iptali ve ehliyet iadesi hakkında yazılar. ${site.name}.`,
+  alternates: { canonical: "/blog" },
+  robots: { index: true, follow: true },
 };
 
 export default function BlogIndexPage() {

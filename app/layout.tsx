@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Footer } from "@/components/footer";
 import { MobileCta } from "@/components/mobile-cta";
 import { Navbar } from "@/components/navbar";
+import { indexFollow, getSiteUrl } from "@/lib/seo";
 import { faqs, site } from "@/lib/site";
 import "./globals.css";
 
@@ -17,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(site.url),
+  metadataBase: new URL(getSiteUrl()),
   title: {
     default: site.seoTitle,
     template: `%s | ${site.name}`,
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
     title: site.seoTitle,
     description: site.description,
   },
-  robots: { index: true, follow: true },
+  robots: indexFollow,
 };
 
 export const viewport: Viewport = {
